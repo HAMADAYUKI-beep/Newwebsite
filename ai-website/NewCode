@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samurai AI Solutions 採用サイト</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <h1 class="site-header__title">Samurai AI Solutions</h1>
+      <nav class="site-header__nav" aria-label="ヘッダーメニュー">
+        <ul class="site-header__menu">
+          <li class="site-header__menu-item"><a href="#about">会社概要</a></li>
+          <li class="site-header__menu-item"><a href="#services">事業内容</a></li>
+          <li class="site-header__menu-item"><a href="#careers">採用情報</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="slideshow" aria-label="トップページスライドショー">
+      <img
+        id="slideshow-image"
+        class="slideshow__image"
+        src="images/image1.jpg"
+        alt="Samurai AI Solutions 採用サイトのスライド画像"
+      />
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__copyright">
+      &copy; <span id="current-year"></span> Samurai AI Solutions. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
